@@ -1,0 +1,7 @@
+---
+- name: Apply SSH Security to Home Lab Servers
+  hosts: ssh_hardened
+  become: true
+  roles:
+    - role: ssh_security
+

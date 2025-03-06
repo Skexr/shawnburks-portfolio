@@ -1,0 +1,6 @@
+---
+- name: Automate Proxmox Config Backups
+  hosts: proxmox
+  become: true
+  roles:
+    - proxmox_backup

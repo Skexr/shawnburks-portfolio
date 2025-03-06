@@ -1,0 +1,6 @@
+---
+- name: Apply Security Hardening to All Servers
+  hosts: all
+  become: yes
+  roles:
+    - security

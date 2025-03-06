@@ -1,0 +1,6 @@
+---
+- name: Install & Configure Fail2Ban
+  hosts: all
+  become: true
+  roles:
+    - fail2ban
