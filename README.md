@@ -1,6 +1,3 @@
-# shawnburks-portfolio
-"A professional portfolio showcasing my expertise in network operations, system administration, and automation. Featuring home lab documentation, Proxmox virtualization, Ansible automation, game server hosting, and cybersecurity best practices."
-
 # 🏗️ Burks Family Tech Portfolio
 
 ## 🚀 About Me
@@ -42,6 +39,21 @@ My home lab is a **virtualized environment running on Proxmox**, optimized for *
 - Automated Proxmox VM deployments
 - Configuration backups for Proxmox & game servers
 - Network security automation with Fail2Ban & firewall rules
+
+### 🔹 **Proxmox Virtualization**
+- **Two-node Proxmox cluster** (`proxn1`, `proxn2`) with high availability setup
+- **Storage Architecture:**
+  - NVMe SSDs for high-performance VMs
+  - 2TB HDD for Proxmox Backup Server (PBS)
+- **Networking Setup:**
+  - Bonded NICs for high availability
+  - VLAN segmentation for isolating services
+- **Automation & Monitoring:**
+  - Ansible playbooks for VM provisioning & configuration
+  - Grafana dashboards tracking VM performance & uptime
+- **Planned Upgrades:**
+  - Implementation of Ceph storage for redundancy
+  - Expansion to additional Proxmox nodes
 
 ### 🔹 **Game Server Hosting**
 - Dedicated game server VM setup with **Pterodactyl & Pelican**
