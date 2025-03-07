@@ -24,3 +24,4 @@ cd /var/www/
 git clone https://github.com/Skexr/shawnburks-portfolio.git hugo-site
 cd hugo-site
 hugo
+
