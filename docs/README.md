@@ -1,6 +1,6 @@
 ## 🏗️ Home Lab Overview
 ### **Infrastructure & Hardware**
-- **Proxmox Cluster** (`proxn1`, `proxn2`, `proxn2`) – Virtualization and backups
+- **Proxmox Cluster** (`proxn1`, `proxn2`, `proxn3`) – Virtualization and backups
 - **Dell PowerEdge R710** – Game servers, AI workloads, monitoring
 - **HP Z1 G5 Workstation (`Jarvis`)** – Dedicated AI server GPU PT
 - **Dell PowerEdge R730xd** - Game servers, AI workloads, monitoring, GPU PT
